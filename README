@@ -6,6 +6,15 @@ standard environment and tools:
 .gitconfig
 a.vim
 zshprompt.zsh
+.oh-my-zsh
+.vim
+
+The last two are directories. .vim contains among other things
+the syntax files, a plugin autoloaded (pathogen), and the solarized
+color files.
+
+.oh-my-zsh is an addon for zsh containing many zsh themes and extra
+settings.
 
 To setup a new machine:
 in the $HOME directory,
