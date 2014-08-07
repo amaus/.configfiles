@@ -15,3 +15,15 @@ cd configfiles
 ./setup.zsh
 
 setup.zsh symlinks the dotfiles in configfiles to the home director.
+
+To convert setup a machine that already has dot files on it,
+will need to delete (or backup) those files:
+
+cd ~
+rm .zshrc
+rm .vimrc
+rm .gitconfig
+rm ./bin/a.vim
+rm zshprompt.zsh
+
+then clone and setup as above
