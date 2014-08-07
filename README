@@ -1,17 +1,11 @@
 This is a git repository for all my configuration files for my
 standard environment and tools:
 
-.zshrc
-.vimrc
-.gitconfig
-a.vim
-zshprompt.zsh
-.oh-my-zsh
-.vim
+zsh
+vim
+git
 
-The last two are directories. .vim contains among other things
-the syntax files, a plugin autoloaded (pathogen), and the solarized
-color files.
+solarized is a package with special picked colors for text editing.
 
 .oh-my-zsh is an addon for zsh containing many zsh themes and extra
 settings.
@@ -25,7 +19,7 @@ cd configfiles
 
 setup.zsh symlinks the dotfiles in configfiles to the home director.
 
-To convert setup a machine that already has dot files on it,
+To setup a machine that already has dot files on it,
 will need to delete (or backup) those files:
 
 But first, pull any settings from .zshrc that are specific
