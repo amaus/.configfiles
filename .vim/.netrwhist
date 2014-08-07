@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/amaus/Documents/3-Courses/1583_Fall2013/submissions/vtnguy14/homework5'
+let g:netrw_dirhist_2='/Users/amaus/Documents/3-Courses/csci6990-hci-f13/slides'
+let g:netrw_dirhist_3='/Users/amaus/Documents/3-Courses/1583_Fall2013/submissions/cjbradle/homework4'
+let g:netrw_dirhist_4='/Users/amaus/source/protCAD/src/lib/ensemble'
