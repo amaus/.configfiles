@@ -1,0 +1,8 @@
+[user]
+	name = Aaron Maus
+	email = amaus@uno.edu
+[core]
+	editor = /usr/bin/vim
+
+[alias]
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
