@@ -1,9 +1,17 @@
 This is a git repository for all my configuration files for my
 standard environment and tools:
 
-.vimrc
 .zshrc
+.vimrc
 .gitconfig
-a.zsh
+a.vim
 zshprompt.zsh
-etc...
+
+To setup a new machine:
+in the $HOME directory,
+
+git clone amaus@aaronpmaus.com:~/git/configfile.git
+cd configfiles
+./setup.zsh
+
+setup.zsh symlinks the dotfiles in configfiles to the home director.
