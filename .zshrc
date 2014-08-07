@@ -17,4 +17,10 @@ alias sho="ssh aaaron@98.164.89.8"
 alias vin="ssh amaus@vincenzo.cs.uno.edu"
 alias grok="ssh -p 31501 aaron@184.177.1.73"
 
-source ~/localSettings.zsh
+
+# if the localSettings.zsh file exists, then source it
+# localSettings is for the settings (path, etc...) that 
+# are particular to a certain machine. 
+if [[ -a ~/localSettings.zsh ]]; then
+    source ~/localSettings.zsh
+fi
