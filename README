@@ -1,0 +1,9 @@
+This is a git repository for all my configuration files for my
+standard environment and tools:
+
+.vimrc
+.zshrc
+.gitconfig
+a.zsh
+zshprompt.zsh
+etc...
