@@ -59,7 +59,7 @@ set title
 " configure title to look like: VIM: file
 set titlestring=VIM:\ %f 
 
-" source ~/config/a.vim
+source ~/configfiles/a.vim
 
 " set up support for 256 color mode
 " set t_Co=256
