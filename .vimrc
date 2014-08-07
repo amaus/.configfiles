@@ -64,10 +64,6 @@ source ~/configfiles/a.vim
 " set up support for 256 color mode
 set t_Co=256
 
-" start pathogen for automated runtimepath handling
-" for ease of installation of plugins
-execute pathogen#infect()
-
 set background=dark
 colorscheme solarized
 
