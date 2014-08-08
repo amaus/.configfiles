@@ -1,7 +1,7 @@
 #set zsh settings
 export ZSH=$HOME/configfiles/.oh-my-zsh
-#export ZSH_THEME="robbyrussell"
 source $ZSH/oh-my-zsh.sh
+#export ZSH_THEME="robbyrussell"
 source ~/configfiles/zshprompt.zsh
 
 alias slee="ssh amaus@lee.cs.uno.edu"
