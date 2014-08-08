@@ -67,3 +67,5 @@ set t_Co=256
 set background=dark
 colorscheme solarized
 
+:command MD set background=dark
+:command ML set background=light
