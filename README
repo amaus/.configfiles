@@ -5,6 +5,7 @@ zsh
 vim
 git
 tmux
+iTerm
 
 solarized is a package with special picked colors for text editing.
 
@@ -12,8 +13,12 @@ solarized is a package with special picked colors for text editing.
 settings.
 
 To setup a new machine:
-in the $HOME directory,
+First install brew and iTerm
+Then, in the $HOME directory,
 
+brew install zsh
+brew install git
+brew install tmux
 git clone amaus@aaronpmaus.com:~/git/configfile.git
 cd configfiles
 ./setup.zsh
