@@ -4,6 +4,7 @@ standard environment and tools:
 zsh
 vim
 git
+tmux
 
 solarized is a package with special picked colors for text editing.
 
@@ -32,5 +33,7 @@ rm .vimrc
 rm .gitconfig
 rm ./bin/a.vim
 rm zshprompt.zsh
+rm -rf .oh-my-zsh
+rm -rf .vim
 
 then clone and setup as above
