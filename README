@@ -29,7 +29,7 @@ To setup a machine that already has dot files on it,
 will need to delete (or backup) those files:
 
 But first, pull any settings from .zshrc that are specific
-to that machine into a localSetings.zsh file in $HOME.
+to that machine into a .localSettings.zsh file in $HOME.
 Then:
 
 cd ~
