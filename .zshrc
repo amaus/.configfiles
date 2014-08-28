@@ -21,6 +21,6 @@ alias grok="ssh -p 31501 aaron@184.177.1.73"
 # if the localSettings.zsh file exists, then source it
 # localSettings is for the settings (path, etc...) that 
 # are particular to a certain machine. 
-if [[ -a ~/localSettings.zsh ]]; then
-    source ~/localSettings.zsh
+if [[ -a ~/.localSettings.zsh ]]; then
+    source ~/.localSettings.zsh
 fi
