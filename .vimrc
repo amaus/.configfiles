@@ -1,3 +1,4 @@
+source ~/configfiles/a.vim
 syntax on			"syntax highlighing
 set number			"turn on line numbers
 set ts=4			"set tab spacing to 4
@@ -9,7 +10,7 @@ set expandtab
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 au BufNewFile,BufRead *.cl setf opencl
 au BufRead,BufNewFile *.cc set syntax=cpp.doxygen
-
+    
 com! SCO call SpellCheckOff()
 com! SC call SpellCheckOn()
 com! PM call WordProcessorMode()
@@ -59,7 +60,6 @@ set title
 " configure title to look like: VIM: file
 set titlestring=VIM:\ %f 
 
-source ~/configfiles/a.vim
 
 " set up support for 256 color mode
 set t_Co=256
