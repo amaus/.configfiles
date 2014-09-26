@@ -64,8 +64,9 @@ set titlestring=VIM:\ %f
 " set up support for 256 color mode
 set t_Co=256
 
-set background=dark
 colorscheme solarized
 
 :command MD set background=dark
 :command ML set background=light
+
+source ~/configfiles/viColors.vim
