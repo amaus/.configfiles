@@ -69,4 +69,7 @@ colorscheme solarized
 :command MD set background=dark
 :command ML set background=light
 
+" source the file to set the default background color of vim
+" this file is in $HOME to keep files that are constantly modified
+" out of my git repository.
 source ~/.viColors.vim
