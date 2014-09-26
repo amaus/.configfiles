@@ -1,1 +1,1 @@
-echo "set background=light" > $HOME/configfiles/viColors.vim
+echo "set background=light" > $HOME/.viColors.vim

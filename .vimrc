@@ -69,4 +69,4 @@ colorscheme solarized
 :command MD set background=dark
 :command ML set background=light
 
-source ~/configfiles/viColors.vim
+source ~/.viColors.vim
