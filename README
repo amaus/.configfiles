@@ -19,8 +19,8 @@ Then, in the $HOME directory,
 brew install zsh
 brew install git
 brew install tmux
-git clone amaus@aaronpmaus.com:~/git/configfiles.git
-cd configfiles
+git clone amaus@aaronpmaus.com:~/git/.configfiles.git
+cd .configfiles
 ./setup.zsh
 
 setup.zsh symlinks the dotfiles in configfiles to the home director.

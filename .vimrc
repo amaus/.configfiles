@@ -1,4 +1,4 @@
-source ~/configfiles/a.vim
+source ~/.configfiles/a.vim
 syntax on			"syntax highlighing
 set number			"turn on line numbers
 set ts=4			"set tab spacing to 4
