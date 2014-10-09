@@ -17,8 +17,8 @@ alias sho="ssh aaaron@98.164.89.8"
 alias vin="ssh amaus@vincenzo.cs.uno.edu"
 alias grok="ssh -p 31501 aaron@184.177.1.73"
 alias junit="java org.junit.runner.JUnitCore"
-alias vl="$HOME/configfiles/setVimLight.zsh"
-alias vd="$HOME/configfiles/setVimDark.zsh"
+alias vl="$HOME/.configfiles/setVimLight.zsh"
+alias vd="$HOME/.configfiles/setVimDark.zsh"
 
 
 # if the localSettings.zsh file exists, then source it
