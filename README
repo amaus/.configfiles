@@ -12,14 +12,14 @@ solarized is a package with special picked colors for text editing.
 .oh-my-zsh is an addon for zsh containing many zsh themes and extra
 settings.
 
-To setup a new machine:
+To setup a new mac:
 First install brew and iTerm
 Then, in the $HOME directory,
 
 brew install zsh
 brew install git
 brew install tmux
-git clone amaus@aaronpmaus.com:~/git/configfile.git
+git clone amaus@aaronpmaus.com:~/git/configfiles.git
 cd configfiles
 ./setup.zsh
 
