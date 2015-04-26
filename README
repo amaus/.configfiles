@@ -42,3 +42,5 @@ rm -rf .oh-my-zsh
 rm -rf .vim
 
 then clone and setup as above
+
+--APM
