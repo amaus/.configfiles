@@ -6,3 +6,25 @@
 
 [alias]
     hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+    h = help
+    co = checkout
+    sm = submodule
+    st = status
+    s  = status -s
+    stat = status
+    br = branch
+    ci = commit -v
+    d = diff
+    dword = diff --word-diff
+    dw = diff --word-diff
+    dwsl = diff --word-diff HEAD^..HEAD
+    dstat = diff --stat
+    dst = diff --stat
+    dstsl = diff --stat HEAD^..HEAD
+    lg = log --oneline --decorate --graph --all
+    lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+    fuckit = reset --hard
+    whatsnew = log origin/master@{1}..origin/master@{0}
+    unstage = reset HEAD --
+    us = reset HEAD --
