@@ -5,6 +5,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.configfiles/zshprompt.zsh
 
 alias slee="ssh amaus@lee.cs.uno.edu"
+alias slee2="ssh amaus@lee.cs.uno.edu"
 alias sv1="ssh amaus@vis01.cs.uno.edu"
 alias sv2="ssh amaus@vis02.cs.uno.edu"
 alias sv3="ssh amaus@vis03.cs.uno.edu"
