@@ -16,6 +16,7 @@ To setup a new mac:
 First install brew and iTerm
 Then, in the $HOME directory,
 
+brew install vim
 brew install zsh
 brew install git
 brew install tmux

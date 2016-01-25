@@ -4,6 +4,7 @@ source $ZSH/oh-my-zsh.sh
 #export ZSH_THEME="robbyrussell"
 source ~/.configfiles/zshprompt.zsh
 
+alias vi="vim"
 alias slee="ssh amaus@lee.cs.uno.edu"
 alias slee2="ssh amaus@lee2.cs.uno.edu"
 alias sv1="ssh amaus@vis01.cs.uno.edu"
