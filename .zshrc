@@ -4,7 +4,7 @@ source $ZSH/oh-my-zsh.sh
 #export ZSH_THEME="robbyrussell"
 source ~/.configfiles/zshprompt.zsh
 
-alias vi="vim"
+# Various Machines
 alias slee="ssh amaus@lee.cs.uno.edu"
 alias slee2="ssh amaus@lee2.cs.uno.edu"
 alias sv1="ssh amaus@vis01.cs.uno.edu"
@@ -19,6 +19,11 @@ alias svc="ssh amaus@cook.cs.uno.edu"
 alias sho="ssh aaaron@98.164.89.8"
 alias vin="ssh amaus@vincenzo.cs.uno.edu"
 alias grok="ssh aaron@home.aaronpmaus.com"
+
+# Brewing Machines
+alias sferm="ssh -p 2020 amaus@brewingsetup.aaronpmaus.com"
+
+alias vi="vim"
 alias junit="java org.junit.runner.JUnitCore"
 alias vl="$HOME/.configfiles/setVimLight.zsh"
 alias vd="$HOME/.configfiles/setVimDark.zsh"
