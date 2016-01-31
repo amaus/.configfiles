@@ -21,7 +21,7 @@ alias vin="ssh amaus@vincenzo.cs.uno.edu"
 alias grok="ssh aaron@home.aaronpmaus.com"
 
 # Brewing Machines
-alias sferm="ssh -p 2020 amaus@brewingsetup.aaronpmaus.com"
+alias sferm="ssh -p 2030 amaus@brewingsetup.aaronpmaus.com"
 
 alias vi="vim"
 alias junit="java org.junit.runner.JUnitCore"
