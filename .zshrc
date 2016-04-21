@@ -17,7 +17,7 @@ alias sv7="ssh amaus@vis07.cs.uno.edu"
 alias sv8="ssh amaus@vis08.cs.uno.edu"
 alias svc="ssh amaus@cook.cs.uno.edu"
 alias sho="ssh aaaron@98.164.89.8"
-alias vin="ssh amaus@vincenzo.cs.uno.edu"
+alias ugo="ssh amaus@ugo.cs.uno.edu"
 alias grok="ssh aaron@home.aaronpmaus.com"
 
 # Brewing Machines
