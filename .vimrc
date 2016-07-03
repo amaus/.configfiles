@@ -9,6 +9,7 @@ setlocal linebreak
 set expandtab
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 au BufNewFile,BufRead *.cl setf opencl
+au BufNewFile,BufRead *.gradle setf groovy
 au BufRead,BufNewFile *.cc set syntax=cpp.doxygen
     
 com! SCO call SpellCheckOff()
