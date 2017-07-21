@@ -1,8 +1,14 @@
-#set zsh settings
+# set zsh settings
+# plugins must be difined before ZSH is initialized
+plugins=(history colorized colored-man-pages 
+         web-search themes battery git)
+source ~/.configfiles/gitFunctions.zsh
+#export ZSH_THEME="kennethreitz"
+#export ZSH_THEME="bira"
+export ZSH_THEME="amaus"
 export ZSH=$HOME/.configfiles/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-#export ZSH_THEME="robbyrussell"
-source ~/.configfiles/zshprompt.zsh
+#source ~/.configfiles/zshprompt.zsh
 
 # Various Machines
 alias slee="ssh amaus@lee.cs.uno.edu"
