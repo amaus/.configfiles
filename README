@@ -5,6 +5,7 @@ zsh
 vim
 git
 tmux
+zsh-autosuggestions
 iTerm
 
 solarized is a package with special picked colors for text editing.
@@ -20,6 +21,7 @@ brew install vim
 brew install zsh
 brew install git
 brew install tmux
+brew install zsh-autosuggestions
 git clone amaus@aaronpmaus.com:~/git/.configfiles.git
 cd .configfiles
 ./setup.zsh
