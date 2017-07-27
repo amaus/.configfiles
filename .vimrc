@@ -23,7 +23,6 @@ func! WordProcessorMode()
 	set formatoptions+=t			"and tell vim to automagically return to the next 
 									"line as I type
 	setlocal formatoptions+=1		"break on prev word, not hard linebreak
-	setlocal noexpandtab
 	"gj and gk move the cusor up and down one display line
 	"as opposed to one physical line
 	map j gj
