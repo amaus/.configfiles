@@ -5,6 +5,7 @@ zsh
 vim
 git
 tmux
+oh-my-zsh
 zsh-autosuggestions
 iTerm
 
@@ -21,6 +22,7 @@ brew install vim
 brew install zsh
 brew install git
 brew install tmux
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 git clone amaus@aaronpmaus.com:~/git/.configfiles.git
 cd .configfiles

@@ -6,7 +6,7 @@ source ~/.configfiles/gitFunctions.zsh
 #export ZSH_THEME="kennethreitz"
 #export ZSH_THEME="bira"
 export ZSH_THEME="amaus"
-export ZSH=$HOME/.configfiles/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1' # Red
