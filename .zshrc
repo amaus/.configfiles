@@ -8,8 +8,8 @@ source ~/.configfiles/gitFunctions.zsh
 export ZSH_THEME="amaus"
 export ZSH=$HOME/.configfiles/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
-source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=130' # DarkOrange3
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1' # Red
 #source ~/.configfiles/zshprompt.zsh
 
 # Various Machines
