@@ -1,3 +1,5 @@
+# this function is used in my oh-my-zsh theme return
+# the git project name for cmd prompt display purposes
 function git_project_name() {
     local ref
     ref=$(command git rev-parse --quiet --show-toplevel 2> /dev/null)
