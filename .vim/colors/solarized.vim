@@ -1,1 +1,1 @@
-../../solarized/vim-colors-solarized/colors/solarized.vim
+/Users/amaus/.configfiles/solarized/vim-colors-solarized/colors/solarized.vim

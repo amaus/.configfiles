@@ -1,51 +1,69 @@
-This is a git repository for all my configuration files for my
-standard environment and tools:
+# Configuration Files
 
-zsh
-vim
-git
-tmux
-oh-my-zsh
-zsh-autosuggestions
-iTerm
+This project holds all my standard configuration files for my
+environment and my tools to allow me to easily set up a new machine.
 
-solarized is a package with special picked colors for text editing.
+## Tools I Use
+
+- [zsh][zsh]
+- [vim][vim]
+- [git][git]
+- [oh-my-zsh][omz]
+- [zsh-autosuggestions][zsh-auto]
+- [iTerm][iterm] (on mac)
+- [solarized][sol]
+
+solarized is a package for color themes for many text editors and interfaces.
 
 .oh-my-zsh is an addon for zsh containing many zsh themes and extra
 settings.
 
-To setup a new mac:
-First install brew and iTerm
-Then, in the $HOME directory,
+## Install 
 
-brew install vim
-brew install zsh
-brew install git
-brew install tmux
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
-git clone amaus@aaronpmaus.com:~/git/.configfiles.git
-cd .configfiles
-./setup.zsh
+### Setup for a new environment
 
-setup.zsh symlinks the dotfiles in configfiles to the home director.
+In the $HOME directory,
 
-To setup a machine that already has dot files on it,
+- install vim
+- install zsh
+- install git
+- `git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+- `git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
+- `git clone amaus@aaronpmaus.com:~/git/.configfiles.git`
+- `git clone git://github.com/altercation/solarized.git ~/.configfiles/
+- `cd .configfiles`
+- `./setup.zsh`
+
+The setup.zsh script symlinks the dotfiles in configfiles to the home
+directory.
+
+### Setup for an environment already configured
+
+To setup an environment that already has configuration files,
 will need to delete (or backup) those files:
 
 But first, pull any settings from .zshrc that are specific
 to that machine into a .localSettings.zsh file in $HOME.
 Then:
 
-cd ~
-rm .zshrc
-rm .vimrc
-rm .gitconfig
-rm ./bin/a.vim
-rm zshprompt.zsh
-rm -rf .oh-my-zsh
-rm -rf .vim
+- `cd ~`
+- `rm .zshrc`
+- `rm .vimrc`
+- `rm .gitconfig`
+- `rm -rf .vim`
 
 then clone and setup as above
 
---APM
+### Contributing
+
+This isn't a project in the sense of being under active development. It
+is the evolving state of my current configuration. You are welcome to
+fork and use it in what ever capacity you wish.
+
+[zsh]: http://zsh.sourceforge.net
+[vim]: http://www.vim.org
+[git]: https://git-scm.com
+[omz]: http://ohmyz.sh
+[zsh-auto]: https://github.com/zsh-users/zsh-autosuggestions
+[iterm]: https://www.iterm2.com
+[sol]: http://ethanschoonover.com/solarized
