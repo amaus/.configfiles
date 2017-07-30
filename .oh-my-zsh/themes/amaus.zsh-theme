@@ -1,1 +1,0 @@
-/Users/amaus/.configfiles/amaus.zsh-theme
