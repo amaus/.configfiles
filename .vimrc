@@ -1,7 +1,7 @@
 source ~/.configfiles/a.vim
 syntax on			"syntax highlighing
 set number			" turn on line numbers
-set ts=4			" set tab spacing to 4
+set ts=2			" set tab spacing to 4
 "set autoindent
 set ruler			" show cursor position all the time
 setlocal wrap
