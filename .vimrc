@@ -14,6 +14,12 @@ au BufRead,BufNewFile *.cc set syntax=cpp.doxygen
 set textwidth=72     " set the max text width to 72 columns
 set formatoptions-=t " but don't automagically return to the next line
     
+" ignore files with the following extenstions when doing autocompete
+" within vim, use case: when splitting the window
+" example:
+" set wildignore+=*.pdf,*.o,*.obj,*.jpg,*.png
+set wildignore+=*.class
+
 com! SCO call SpellCheckOff()
 com! SC call SpellCheckOn()
 com! PM call WordProcessorMode()

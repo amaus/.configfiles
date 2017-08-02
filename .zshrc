@@ -29,6 +29,9 @@ alias junit="java org.junit.runner.JUnitCore"
 alias vl="$HOME/.configfiles/setVimLight.zsh"
 alias vd="$HOME/.configfiles/setVimDark.zsh"
 
+# when using autocomplete after typing vim, ignore all files with
+# extensions class, aux, log, and pdf
+zstyle ':completion:*:*:vim:*' file-patterns '^*.(class|aux|log|pdf):source-files' '*:all-files'
 
 # if the localSettings.zsh file exists, then source it
 # localSettings is for the settings (path, etc...) that 
