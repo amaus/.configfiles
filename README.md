@@ -29,7 +29,7 @@ In the $HOME directory,
 - install git
 - `git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
 - `git clone git://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
-- `git clone amaus@aaronpmaus.com:~/git/.configfiles.git`
+- `git clone https://github.com/amaus/.configfiles.git`
 - `git clone git://github.com/altercation/solarized.git ~/.configfiles/`
 - `cd .configfiles`
 - `./setup.zsh`
