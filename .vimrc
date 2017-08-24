@@ -18,7 +18,7 @@ set formatoptions-=t " but don't automagically return to the next line
 " within vim, use case: when splitting the window
 " example:
 " set wildignore+=*.pdf,*.o,*.obj,*.jpg,*.png
-set wildignore+=*.class
+set wildignore+=*.class,*.pdf
 
 com! SCO call SpellCheckOff()
 com! SC call SpellCheckOn()
