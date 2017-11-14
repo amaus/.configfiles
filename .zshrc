@@ -33,6 +33,10 @@ alias vd="$HOME/.configfiles/setVimDark.zsh"
 # extensions class, aux, log, and pdf
 zstyle ':completion:*:*:vim:*' file-patterns '^*.(class|JPG|jpg|aux|log|pdf):source-files' '*:all-files'
 
+# keep each terminal session's history separate
+unsetopt inc_append_history
+unsetopt share_history
+
 # if the localSettings.zsh file exists, then source it
 # localSettings is for the settings (path, etc...) that 
 # are particular to a certain machine. 
