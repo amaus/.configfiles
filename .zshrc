@@ -13,12 +13,9 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1' # Red
 #source ~/.configfiles/zshprompt.zsh
 
 # Various Machines
+alias ssh="ssh -A"
 alias slee="ssh amaus@lee.cs.uno.edu"
 alias slee2="ssh amaus@lee2.cs.uno.edu"
-alias svc="ssh amaus@cook.cs.uno.edu"
-alias sho="ssh aaaron@98.164.89.8"
-alias ugo="ssh amaus@ugo.cs.uno.edu"
-alias grok="ssh aaron@home.aaronpmaus.com"
 alias ip="ifconfig | grep inet | sed -n '5p' | awk '{ print \$2 }'"
 
 # Brewing Machines
