@@ -10,6 +10,7 @@ set expandtab
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl
 au BufNewFile,BufRead *.cl setf opencl
 au BufNewFile,BufRead *.gradle setf groovy
+" au BufNewFile,BufRead *.pdb set filetype=pdb
 au BufRead,BufNewFile *.cc set syntax=cpp.doxygen
 set textwidth=72     " set the max text width to 72 columns
 set formatoptions-=t " but don't automagically return to the next line
