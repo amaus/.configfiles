@@ -9,8 +9,8 @@ local current_dir='%{$fg[green]%} %4~%{$reset_color%}'
 
 local git_branch='$(git_prompt_info)$(git_project_name)%{$reset_color%}'
 
-PROMPT="╭─${user_host} ${current_dir}
-╰─%B$%b "
+PROMPT="-${user_host} ${current_dir}
+-%B$%b "
 #RPS1="${return_code}"
 RPS1="${git_branch}"
 
