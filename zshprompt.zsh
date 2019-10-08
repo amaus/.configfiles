@@ -25,6 +25,9 @@
 # %3~ specifies show the last three directories of the current working directory. substitute $HOME with ~
 MONTH=`date +%m`
 DAY=`date +%d`
+BLUE="%{\e[0;34m%}"
+RED="%{\e[1;31m%}"
+
 
 PROMPT=$'%{\e[0;32m%}[%{\e[0;34m%}%n%{\e[0;37m%}@%{\e[1;31m%}%m%{\e[0;32m%}:%3~]%# %{\e[0m%}' #default prompt
 RPROMPT=$'%{\e[0;32m%}[%D{%L:%M:%S %p}; %D{%a,%b %d}]%{\e[0m%}' #prompt for the right side of the screen
