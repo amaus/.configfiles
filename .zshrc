@@ -1,6 +1,7 @@
 # set zsh settings
-# plugins must be difined before ZSH is initialized
-plugins=(history colorized colored-man-pages 
+# plugins must be defined before ZSH is initialized
+#plugins=(history colorized colored-man-pages 
+plugins=(history colored-man-pages 
          web-search themes battery git)
 source ~/.configfiles/gitFunctions.zsh
 #export ZSH_THEME="kennethreitz"
@@ -13,10 +14,9 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1' # Red
 #source ~/.configfiles/zshprompt.zsh
 
 # Various Machines
-alias ssh="ssh -A"
+alias ssh="ssh -A" # explicitly enable authentication forwarding
 alias slee="ssh amaus@lee.cs.uno.edu"
 alias slee2="ssh amaus@lee2.cs.uno.edu"
-alias ip="ifconfig | grep inet | sed -n '5p' | awk '{ print \$2 }'"
 
 # Brewing Machines
 alias sferm="ssh -p 2030 amaus@brewingsetup.aaronpmaus.com"
