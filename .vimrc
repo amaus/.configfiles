@@ -14,7 +14,8 @@ au BufNewFile,BufRead *.gradle setf groovy
 au BufRead,BufNewFile *.cc set syntax=cpp.doxygen
 set textwidth=72     " set the max text width to 72 columns
 set formatoptions-=t " but don't automagically return to the next line
-    
+inoremap kj <Esc> " map the kj key combination to <Esc>
+
 " ignore files with the following extenstions when doing autocompete
 " within vim, use case: when splitting the window
 " example:
