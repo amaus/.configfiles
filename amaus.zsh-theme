@@ -9,7 +9,24 @@ local current_dir='%{$fg[green]%} %4~%{$reset_color%}'
 
 local git_branch='$(git_prompt_info)$(git_project_name)%{$reset_color%}'
 
-PROMPT="-${user_host} ${current_dir}
+if [[ $HOST -eq "ada" ]]; then
+  # Display and color battery level
+  local batterynum=${$(acpi | awk '{print $4}')%??}
+  #local battery='%{$fg[yellow]%} bat ${batterynum}%%%{$reset_color%}'
+  if [[ ${batterynum} -gt 50 ]]; then
+    local battery='%{$fg[green]%} bat ${batterynum}%%%{$reset_color%}'
+  fi
+
+  if [[ ${batterynum} -le 50 ]]; then
+    local battery='%{$fg[yellow]%} bat ${batterynum}%%%{$reset_color%}'
+  fi
+
+  if [[ ${batterynum} -le 25 ]]; then
+    local battery='%{$fg[red]%} bat ${batterynum}%%%{$reset_color%}'
+  fi
+fi
+
+PROMPT="-${user_host} ${battery} ${current_dir}
 -%B$%b "
 #RPS1="${return_code}"
 RPS1="${git_branch}"
