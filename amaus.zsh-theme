@@ -12,7 +12,6 @@ local git_branch='$(git_prompt_info)$(git_project_name)%{$reset_color%}'
 if [[ $HOST == "ada" ]]; then
   # Display and color battery level
   local batteryfull=$(acpi | awk '{print $3}')
-  echo "batteryfull: ${batteryfull}"
   if [[ ${batteryfull} == "Full," ]]; then
     local battery='%{$fg[green]%} bat full 100%%%{$reset_color%}'
   else
