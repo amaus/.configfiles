@@ -73,7 +73,7 @@ set titlestring=VIM:\ %f
 " set up support for 256 color mode
 set t_Co=256
 
-colorscheme solarized " on lee2.cs.uno.edu, this line causes
+" colorscheme solarized " on lee2.cs.uno.edu, this line causes
                       " automatic splitting the window for opening
                       " any file. wierd
 :command MD set background=dark

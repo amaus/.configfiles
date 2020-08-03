@@ -8,25 +8,9 @@ local user_host='{%{$fg[blue]%}%n%{$fg[white]%}@%{$fg[red]%}%m%{$reset_color%}'
 local current_dir='%{$fg[green]%} %4~%{$reset_color%}'
 
 local git_branch='$(git_prompt_info)$(git_project_name)%{$reset_color%}'
+local battery='$(battery_status_color) bat $(battery_percent)%%%{$reset_color%}'
 
-if [[ $HOST == "ada" ]]; then
-  # Display and color battery level
-  local batteryfull=$(acpi | awk '{print $3}')
-  if [[ ${batteryfull} == "Full," ]]; then
-    local battery='%{$fg[green]%} bat full 100%%%{$reset_color%}'
-  else
-    local batterynum=${$(acpi | awk '{print $4}')%??}
-    if [[ ${batterynum} -le 25 ]]; then
-      local battery='%{$fg[red]%} bat ${batterynum}%%%{$reset_color%}'
-    elif [[ ${batterynum} -le 50 ]]; then
-      local battery='%{$fg[yellow]%} bat ${batterynum}%%%{$reset_color%}'
-    elif [[ ${batterynum} -gt 50 ]]; then
-      local battery='%{$fg[green]%} bat ${batterynum}%%%{$reset_color%}'
-    fi
-  fi
-fi
-
-PROMPT="-${user_host} ${battery} ${current_dir}
+PROMPT="-${user_host}${battery}${current_dir}
 -%B$%b "
 #RPS1="${return_code}"
 RPS1="${git_branch}"

@@ -3,7 +3,7 @@
 #plugins=(history colorized colored-man-pages 
 plugins=(history colored-man-pages 
          web-search themes battery git)
-source ~/.configfiles/gitFunctions.zsh
+source ~/.configfiles/promptFunctions.zsh
 #export ZSH_THEME="kennethreitz"
 #export ZSH_THEME="bira"
 export ZSH_THEME="amaus"
