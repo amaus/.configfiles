@@ -23,8 +23,7 @@ function is_git_repo(){
 }
 
 function has_battery(){
-  local acpi=$(which acpi)
-  if [[ -n $acpi ]]; then
+  if [[ -e "/usr/bin/acpi" ]]; then
     echo 1
     return
   fi
