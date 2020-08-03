@@ -3,7 +3,10 @@
 #plugins=(history colorized colored-man-pages 
 plugins=(history colored-man-pages 
          web-search themes battery git)
-source ~/.configfiles/promptFunctions.zsh
+source $HOME/.configfiles/promptFunctions.zsh
+if [[ $(has_acpi) ]]; then
+  source $HOME/.configfiles/batteryFunctions.zsh
+fi
 #export ZSH_THEME="kennethreitz"
 #export ZSH_THEME="bira"
 export ZSH_THEME="amaus"
