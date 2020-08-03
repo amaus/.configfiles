@@ -8,7 +8,9 @@ local user_host='{%{$fg[blue]%}%n%{$fg[white]%}@%{$fg[red]%}%m%{$reset_color%}'
 local current_dir='%{$fg[green]%} %4~%{$reset_color%}'
 
 local git_branch='$(git_prompt_info)$(git_project_name)%{$reset_color%}'
-local battery='$(battery_status_color) bat $(battery_percent)%%%{$reset_color%}'
+if [[ $(has_battery) ]]; then
+  local battery='$(battery_status_color) bat $(battery_percent)%%%{$reset_color%}'
+fi
 
 PROMPT="-${user_host}${battery}${current_dir}
 -%B$%b "

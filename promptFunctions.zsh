@@ -22,6 +22,15 @@ function is_git_repo(){
     echo 1
 }
 
+function has_battery(){
+  local acpi=$(which acpi)
+  if [[ -n $acpi ]]; then
+    echo 1
+    return
+  fi
+  echo 0
+}
+
 function battery_percent(){
   local batteryfull=$(acpi | awk '{print $3}')
   if [[ ${batteryfull} == "Full," ]]; then
