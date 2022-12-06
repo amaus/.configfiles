@@ -1,6 +1,8 @@
 source ~/.configfiles/a.vim
 syntax on			"syntax highlighing
-set number			" turn on line numbers
+" set number			" turn on line numbers
+set relativenumber " turn on relative line numbers, short ver: rnu
+set number
 set ts=2			" set tab spacing to 4
 "set autoindent
 set ruler			" show cursor position all the time
@@ -71,15 +73,15 @@ set titlestring=VIM:\ %f
 
 
 " set up support for 256 color mode
-set t_Co=256
+" set t_Co=256
 
 " colorscheme solarized " on lee2.cs.uno.edu, this line causes
                       " automatic splitting the window for opening
                       " any file. wierd
-:command MD set background=dark
-:command ML set background=light
+" :command MD set background=dark
+" :command ML set background=light
 
 " source the file to set the default background color of vim
 " this file is in $HOME to keep files that are constantly modified
 " out of my git repository.
-source ~/.viColors.vim
+" source ~/.viColors.vim

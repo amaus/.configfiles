@@ -15,11 +15,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1' # Red
 
 # Various Machines
 alias ssh="ssh -A" # explicitly enable authentication forwarding
-alias slee="ssh amaus@lee.cs.uno.edu"
-alias slee2="ssh amaus@lee2.cs.uno.edu"
-
-# Brewing Machines
-alias sferm="ssh -p 2030 amaus@brewingsetup.aaronpmaus.com"
 
 alias vi="vim"
 alias junit="java org.junit.runner.JUnitCore"
