@@ -6,4 +6,4 @@ ln -s -i ~/.configfiles/.vim ~/.vim
 #cp ~/.configfiles/solarized/vim-colors-solarized/colors/solarized.vim ~/.configfiles/.vim/colors/
 ln -s -i ~/.configfiles/.tmux.conf ~/.tmux.conf
 ln -s -i ~/.configfiles/amaus.zsh-theme ~/.oh-my-zsh/themes/amaus.zsh-theme
-~/.configfiles/setVimLight.zsh
+#~/.configfiles/setVimLight.zsh
