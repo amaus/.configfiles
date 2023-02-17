@@ -27,7 +27,7 @@ In the `$HOME` directory,
 - install vim
 - install zsh
 - install git
-- `git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+- `git clone https://github.com/ohmyzsh/ohmyzsh ~/.oh-my-zsh`
 - `git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
 - `git clone https://github.com/amaus/.configfiles.git`
 - `git clone https://github.com/altercation/solarized.git ~/.configfiles/solarized`
