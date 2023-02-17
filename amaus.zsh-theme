@@ -13,7 +13,7 @@ if [[ -e /usr/bin/acpi ]]; then
 fi
 
 PROMPT="-${user_host}${battery}${current_dir}
--%B$%b "
+-%B🎼%b "
 #RPS1="${return_code}"
 RPS1="${git_branch}"
 
