@@ -10,7 +10,20 @@ export ZSH_THEME="amaus"
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=1' # Red
+
+# autosuggest colors:
+#  1 : red
+#  2 : green
+#  3 : gold
+#  4 : blue
+#  5 : purple
+#  6 : teal
+#  7 : white (exactly same as regular text)
+#  8 : grey
+#  9 : orange
+# 10 : pastel (easter) green
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=130' # DarkOrange3
+
 #source ~/.configfiles/zshprompt.zsh
 
 # Various Machines
