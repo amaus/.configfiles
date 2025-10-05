@@ -4,7 +4,7 @@ local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
 # original:
 #local user_host='%{$terminfo[bold]$fg[green]%}%n@%m%{$reset_color%}'
 # Modified:
-local user_host='{%{$fg[blue]%}%n%{$fg[white]%}@%{$fg[red]%}%m%{$reset_color%}'
+local user_host='{%{$fg[green]%}%n%{$fg[white]%}@%{$fg[blue]%}%m%{$reset_color%}'
 local current_dir='%{$fg[green]%} %4~%{$reset_color%}'
 
 local git_branch='$(git_prompt_info)$(git_project_name)%{$reset_color%}'
